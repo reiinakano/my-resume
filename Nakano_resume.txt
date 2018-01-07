@@ -1,0 +1,47 @@
+REIICHIRO S. NAKANO
+https://github.com/reiinakano
+reiichiro.s.nakano@gmail.com
+
+EMPLOYMENT
+Lead Data Scientist at Adatos - June 2017-present
+Data Scientist/Software Engineer at Adatos - October 2016-June 2017
+- Designed and wrote the backend software of Adatos' core cloud products from scratch, developing our own automated machine learning techniques for credit scoring in the process. Tools used: Flask, Celery, Redis
+- Set up an automatic Docker image build and push server using Jenkins, fully automating a 5-10 minute process running 20+ times a day. Time from commit to test server deployment reduced from 20+ minutes manually to 10-15 minutes with minimal human intervention, resulting in quicker and easier testing and local development.
+- As primary AWS engineer, ensured AWS best practices for security and costs are followed, including proper management of IAM users and roles, encryption of sensitive S3 data, and the use of spot instances for EC2. Spot instances reduced our EC2 cost by up to 50-90% per EC2 server (depending on spot price).
+- Set up and ran Spark on AWS EMR to perform preprocessing and clustering for micro-segmentation on 1000+ GB of client data.
+- Used Tensorflow to build and validate a deep neural network for identification of tuberculosis signs in Chest X-ray images. Used transfer learning on a public dataset of only 660 images and increased sensitivity to 100% while keeping specificity at 80%.
+- Used NLTK and Flask to build a small demo web server showcasing Adatos sentiment analysis capabilities.
+
+OPEN SOURCE SOFTWARE CONTRIBUTIONS
+- Xcessiv (2017, personal project). Creator of a web-based tool for use in automated hyperparameter search and stacked ensembling. Mentioned by Kaggle on Twitter and LinkedIn. Currently has 900+ stars on Github. Python, ReactJS, https://github.com/reiinakano/xcessiv
+- Scikit-plot (2017, personal project). Creator of a small open-source library that adds plotting functionality to scikit-learn objects in an effort to make visualization in common data science tasks a lot easier and more intuitive. Currently has 900+ stars on Github. Python, https://github.com/reiinakano/scikit-plot
+- Fast Style Transfer Demo (2017, personal project). Built a demo implementation of Fast Neural Style Transfer running purely in-browser using Google's deeplearn.JS library. Featured by the official Twitter account of deeplearn.JS. 900+ stars on Github. Javascript, https://github.com/reiinakano/fast-style-transfer-deeplearnjs
+- Open-source software contributions to major libraries: 
+ - scikit-learn: Fixed a software regression in the v0.19 release; 
+ - deeplearn.JS: Implemented various CPU and GPU matrix operations in the library;
+ - mlxtend: Wrote implementation and unit tests of a stacked generalization ensemble classifier; 
+ - Keras: Extended Keras classifier's scikit-learn wrapper to handle string classes. 
+ - Minor contributions: Kube-AWS: Documentation fix.
+
+EDUCATION
+Manila, Philippines De La Salle University-Manila 2011 - October 2016
+- M.Sc. in Electronics and Communications Engineering, October 2016. GPA: 3.6000
+- B.Sc. in Electronics and Communications Engineering, October 2016.
+- Graduate Coursework: Advanced Mathematics, Methods of Research, Technopreneurship, Genetic Algorithms, Fuzzy Logic, Neural Networks, Robotics
+- Graduate Thesis: Simulation and Implementation of Physicomimetics in Quadrotor Swarms
+
+OTHER NOTABLE TECHNICAL PROJECTS
+- Design and development of quadrotor swarm as a test bed for swarm algorithms (2016). Designed software architecture and system to autonomously control a swarm of quadrotors through radio signals from a central server. Designed and coded dual-stage PID controller for flight stabilization. Added modularity to the system to allow team members to easily upload swarm algorithms for testing. Used physicomimetics as a basis for a self-organizing and self-adapting swarm algorithm. Python
+- DLSU Eco Car Electrical team member 2014-2016 (2014-2016). Personally designed, fabricated, and programmed a motor controller, battery management system, speed sensor, lights board, wiper board, and SD card based memory module for Shell Eco-Marathon Asia 2014-2015, and SEM Europe 2016. C
+- WiFi sniffer (2016, personal project). Designed a program to automatically capture and decrypt random WiFi signals from the air and display packet information in a user-friendly GUI. Python
+- 1x1x1 inch remote-controlled robot (2014). Part of team that designed, fabricated, and programmed a 1in x 1in x 1in remote-controlled robot for the International Micro Robot Maze 2014 contest held in Nagoya, Japan. C
+- Remote-controlled home appliance switch (2014, personal project). Designed, fabricated, and programmed an infrared remote control-based system for remote switching of common household appliances. C
+
+ADDITIONAL EXPERIENCE AND AWARDS
+- Philippine government scholarship recipient (2014-2016): Recipient of DOST-ERDT scholarship for Master's students. Full scholarship with monthly stipend.
+- University scholarship recipient (2011-2016): Recipient of Bro. Andrew Gonzalez Academic Scholarship for undergraduate studies. Full scholarship.
+- Published and presented academic papers (2014-2016): One scientific paper published in an IEEE journal (JACIII). Multiple scientific papers (two as first author) regarding quadrotor swarming algorithms accepted and published into IEEE conference proceedings.
+
+Languages and Technologies
+- Python (proficient), JavaScript, C (Prior Experience in Embedded Applications)
+- Scikit-learn, Pandas, Numpy, PyTorch, Keras, Tensorflow, Apache Spark, NLTK, ReactJS, Amazon Web Services, Docker, Kubernetes, Deeplearn.JS
